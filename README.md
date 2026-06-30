@@ -1,6 +1,16 @@
 # Interpretable-MedDeepNet-Model
 This repository contains the implementation of interpretable MedDeepNet for lung CT scan classification and explainable AI-based interpretation. The framework integrates deep learning, feature selection, and LIME-based explanation techniques for medical imaging analysis.
 
+# Interpretable-MedDeepNet-Model
+
+This repository presents the implementation of an Interpretable MedDeepNet framework for lung CT scan classification and explainable artificial intelligence (XAI)-based decision interpretation. The proposed framework integrates deep learning, feature selection, and model-agnostic explanation techniques to improve both classification performance and interpretability in medical image analysis.
+
+The pipeline is designed for automated lung disease classification using CT scan images, covering three categories: normal, benign, and malignant cases. A MedDeepNet is first trained to extract discriminative features from medical images. These features are then optimized using Atom Search Optimization (ASO) for improved feature selection and classification performance.
+
+To enhance transparency and clinical trust, the framework incorporates LIME-based explainability methods, which generate local, interpretable visual explanations highlighting the most influential regions in the image contributing to the model’s prediction.
+
+This repository provides a complete and reproducible pipeline for lung CT image classification, combining high-performance deep learning with interpretable AI techniques suitable for medical decision-support systems.
+
 ## Key Features
 - Deep CNN model (MedDeepNet) for lung CT classification
 - preprocessing pipeline
@@ -20,11 +30,8 @@ Dataset path is not included in this repository due to size constraints.
 Users should organize the dataset as:
 
 dataset/
-
    original/
-   
    resized_augmented/
-   
    segmented/
 
 

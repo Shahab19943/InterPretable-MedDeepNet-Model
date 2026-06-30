@@ -37,11 +37,33 @@ Run scripts in the following order:
 6. lime_base_explanation.m
 
 
-## Requirements
-- MATLAB R2022b or later
+## Experimental Settings
+
+### Software Specifications
+- MATLAB R2024a
 - Deep Learning Toolbox
+- Computer Vision Toolbox
 - Image Processing Toolbox
 - Statistics and Machine Learning Toolbox
+
+### MedDeepNet Configuration
+- Optimizer: SGDM
+- Learning Rate: 0.001
+- Batch Size: 128
+- Max Epochs: 300
+- Momentum: 0.9
+- Learning Rate Schedule: Piecewise
+- Drop Factor: 0.5 every 50 epochs
+- L2 Regularization: 1e-4
+- Execution: GPU
+
+### ASO Configuration
+- Population Size: 10
+- Max Iterations: 25
+- α = 50
+- β = 0.2
+- Objective: Feature Selection
+
 
 - ## Citation
 If you use this code, please cite the related paper:

@@ -10,6 +10,10 @@ imds = imageDatastore(inputPath, ...
 
 %% Resize size
 targetSize = [227 227];
+ 
+%%  train/valid split
+
+[imdsTrain, imdsVal] = splitEachLabel(imds, 0.8, 'randomized');
 
 %% Augmentation settings
 augmenter = imageDataAugmenter( ...

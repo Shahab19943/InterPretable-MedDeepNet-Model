@@ -82,13 +82,21 @@ Run scripts in the following order:
 - High classification accuracy achieved using MedDeepNet
 - LIME-based explanation provides interpretable visual explanations
 - Evaluation includes insertion and deletion metrics for faithfulness analysis
-
+  
 
 <p align="center">
-  <img src="LIME-explanation.PNG" width="850"/>
+  <img src="accuracy_loss.png" width="850"/>
 </p>
 <p align="center">
 </p>
+
+
+<p align="center">
+  <img src="LIME-explanation2.PNG" width="850"/>
+</p>
+<p align="center">
+</p>
+
 
 
 

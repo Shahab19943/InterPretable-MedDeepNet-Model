@@ -70,10 +70,10 @@ To ensure reproducibility, all experiments use:
 - Fixed train-validation split (80/20 using stratified sampling)  
 - Random seed: 42  
 - Identical preprocessing pipeline across all datasets  
-- Augmentation applied only on training data  
+- Augmentation is applied only to training data  
 
 ---
 
 ## 📌 Usage in This Study
 
-Each dataset is used independently to evaluate the robustness and generalization capability of the proposed MedDeepNet framework under different lung CT imaging distributions.
+Each dataset is used independently to evaluate the performance capability of the proposed MedDeepNet framework under different lung CT imaging distributions.

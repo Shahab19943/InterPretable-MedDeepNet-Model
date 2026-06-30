@@ -23,7 +23,7 @@ The dataset consists of lung CT scan images with three classes:
 - Malignant
 - Normal
 
-- Download dataset from:
+Download dataset from:
 [[link](https://www.kaggle.com/datasets/hamdallak/the-iqothnccd-lung-cancer-dataset)]
 
 Users should organize the dataset as:

@@ -78,6 +78,17 @@ Run scripts in the following order:
 - Objective: Feature Selection
 
 
+## Results
+- High classification accuracy achieved using MedDeepNet
+- LIME-based explanation provides interpretable visual explanations
+- Evaluation includes insertion and deletion metrics for faithfulness analysis
+
+<p align="center">
+  <img src="LIME-explanation.png" width="850"/>
+</p>
+
+
+
 - ## Citation
 If you use this code, please cite the related paper:
 

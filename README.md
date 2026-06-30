@@ -49,6 +49,13 @@ Run scripts in the following order:
 5. classification.m
 6. lime_base_explanation.m
 
+<p align="center">
+  <img src="layer_arc.PNG" width="550"/>
+</p>
+  <p align="center">
+  <a>Figure: Layer architecture</a>
+</p>
+
 
 ## Experimental Settings
 
@@ -76,6 +83,8 @@ Run scripts in the following order:
 - α = 50
 - β = 0.2
 - Objective: Feature Selection
+
+
 
 
 ## Results

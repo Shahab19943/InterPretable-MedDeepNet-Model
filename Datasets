@@ -1,0 +1,79 @@
+## Dataset Details
+This study evaluates the proposed MedDeepNet framework using three publicly available lung CT imaging datasets. These datasets are widely used in medical image analysis research and provide diverse and heterogeneous lung CT scans for assessing the robustness, generalization capability, and reliability of deep learning-based lung cancer classification models across different data distributions and imaging conditions.
+
+---
+
+## 1. IQ-OTH/NCCD Lung Cancer Dataset
+
+This dataset consists of lung CT scan images categorized into three classes:
+
+- Normal lung tissue  
+- Benign lung tissue  
+- Malignant lung tissue  
+
+These classes are used for multi-class lung cancer classification.
+
+🔗 Source:
+https://www.kaggle.com/datasets/hamdallak/the-iqothnccd-lung-cancer-dataset  
+
+---
+
+## 2. LIDC-IDRI Dataset
+
+The LIDC-IDRI dataset is a large-scale publicly available lung CT dataset containing thoracic scans with annotated lung nodules.
+
+For this study, the dataset is used for binary classification with the following classes:
+
+- Benign nodules  
+- Malignant nodules  
+
+🔗 Source:
+https://www.kaggle.com/datasets/busharakmea/lung-cancer-detection-lidc-idri-subset  
+
+---
+
+## 3. Lung CT Scan Dataset
+
+This dataset contains lung CT scan images used for multi-class classification tasks.
+
+The dataset includes the following classes:
+
+- Adenocarcinoma  
+- Benign  
+- Carcinoma  
+- Normal  
+- Squamous cell carcinoma  
+- Malignant cases  
+
+🔗 Source:
+https://www.kaggle.com/datasets/dishantrathi20/ct-scan-images-for-lung-cancer
+
+---
+
+## Data Preprocessing Pipeline
+
+All datasets undergo a consistent preprocessing pipeline before training:
+
+- Image resizing to 227×227  
+- Intensity normalization  
+- Data augmentation 
+- Segmentation  
+
+This ensures uniform feature representation across all datasets.
+
+---
+
+## Reproducibility Information
+
+To ensure reproducibility, all experiments use:
+
+- Fixed train-validation split (80/20 using stratified sampling)  
+- Random seed: 42  
+- Identical preprocessing pipeline across all datasets  
+- Augmentation applied only on training data  
+
+---
+
+## 📌 Usage in This Study
+
+Each dataset is used independently to evaluate the robustness and generalization capability of the proposed MedDeepNet framework under different lung CT imaging distributions.

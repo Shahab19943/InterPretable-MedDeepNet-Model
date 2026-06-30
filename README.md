@@ -2,7 +2,6 @@
   <img src="assets/Repo.png" width="850"/>
 </p>
 
-# InterPretable MedDeepNet Model
 
 # Interpretable-MedDeepNet-Model
 

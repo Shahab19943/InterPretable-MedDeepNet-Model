@@ -96,7 +96,7 @@ Run scripts in the following order:
   <img src="LIME-explanation2.PNG" width="550"/>
 </p>
 <p align="center">
-  <b>Figure: Visual explanations using different color maps, highlighting regions influencing model predictions</b>
+  <b>Figure: Visual explanations using different color maps, highlighting regions influencing model predictions</>
 </p>
 
 

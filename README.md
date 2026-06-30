@@ -20,8 +20,11 @@ Dataset path is not included in this repository due to size constraints.
 Users should organize the dataset as:
 
 dataset/
+
    original/
+   
    resized_augmented/
+   
    segmented/
 
 

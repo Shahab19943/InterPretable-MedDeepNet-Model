@@ -85,14 +85,14 @@ Run scripts in the following order:
   
 
 <p align="center">
-  <img src="accuracy_loss.png" width="850"/>
+  <img src="accuracy_loss.png" width="550"/>
 </p>
 <p align="center">
 </p>
 
 
 <p align="center">
-  <img src="LIME-explanation2.PNG" width="850"/>
+  <img src="LIME-explanation2.PNG" width="550"/>
 </p>
 <p align="center">
 </p>

@@ -2,7 +2,7 @@
   <img src="Repo.png" width="850"/>
 </p>
 
-#Interpretable-MedDeepNet-Model
+## Interpretable-MedDeepNet-Model
 
 This repository presents the implementation of an Interpretable MedDeepNet framework for lung CT scan classification and explainable artificial intelligence (XAI)-based decision interpretation. The proposed framework integrates deep learning, feature selection, and model-agnostic explanation techniques to improve both classification performance and interpretability in medical image analysis.
 

@@ -50,7 +50,7 @@ Run scripts in the following order:
 6. lime_base_explanation.m
 
 <p align="center">
-  <img src="layer_arc.PNG" width="550"/>
+  <img src="layer_arc.PNG" width="850"/>
 </p>
   <p align="center">
   <a>Figure: Layer architecture</a>

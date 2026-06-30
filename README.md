@@ -1,2 +1,2 @@
-# InterPretable-MedDeepNet-Model
+# Interpretable-MedDeepNet-Model
 Lunge CT scan analysis

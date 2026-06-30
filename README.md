@@ -83,8 +83,15 @@ Run scripts in the following order:
 - LIME-based explanation provides interpretable visual explanations
 - Evaluation includes insertion and deletion metrics for faithfulness analysis
 
+## 📊 Results and Explainability
+
+### LIME-based Explanation
 <p align="center">
   <img src="LIME-explanation.png" width="850"/>
+</p>
+
+<p align="center">
+  <b>Figure: LIME explanation highlighting important regions for classification</b>
 </p>
 
 

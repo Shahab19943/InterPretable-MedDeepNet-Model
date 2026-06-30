@@ -9,7 +9,7 @@ To enhance transparency and clinical trust, the framework incorporates LIME-base
 This repository provides a complete and reproducible pipeline for lung CT image classification, combining high-performance deep learning with interpretable AI techniques suitable for medical decision-support systems.
 
 ## Key Features
-- Deep CNN model (MedDeepNet) for lung CT classification
+- MedDeepNet for lung CT classification
 - preprocessing pipeline
 - Feature extraction using a trained MedDeepNet
 - Atom Search Optimization (ASO) for feature selection
